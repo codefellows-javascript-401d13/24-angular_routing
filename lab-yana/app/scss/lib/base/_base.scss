@@ -1,0 +1,25 @@
+@import '../theme/vars';
+
+body {
+  font-family: $font;
+  margin: $margin;
+  background-color: $black;
+  text-align: center;
+}
+
+header {
+  font-size: $fontSize;
+  color: $darkGray;
+  background-color: $gray;
+  padding: 1vw;
+}
+
+footer {
+  margin-top: $margin * 10;
+  font-size: $fontSize / 3;
+  color: $gray;
+}
+
+hr {
+  width: 20%;
+}

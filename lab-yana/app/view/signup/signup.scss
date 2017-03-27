@@ -1,0 +1,13 @@
+@import '../../scss/lib/theme/vars';
+
+.signup {
+  display: inline-block;
+  margin: $margin;
+  background-color: $gray;
+  color: $black;
+  font-size: $fontSize * 0.7;
+  h2 {
+    padding: 2vw;
+  }
+  border-radius: 0.5vw;
+}
