@@ -1,6 +1,6 @@
 'use strict';
 
-// TODO: Bring in main scss
+// TODO: require in main scss file
 
 const path = require('path');
 const camelcase = require('camelcase');
