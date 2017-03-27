@@ -1,11 +1,11 @@
 'use strict';
 
-require('./main.scss');
+require('./scss/main.scss');
 
 const path = require('path');
 const pascalcase = require('pascalcase');
-const uiRouter = require('angular-ui-router');
 const angular = require('angular');
+const uiRouter = require('angular-ui-router');
 
 const routesApp = angular.module('routesApp', [uiRouter]);
 

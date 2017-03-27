@@ -10,13 +10,15 @@ function routerConfig($stateProvider, $urlRouterProvider) {
       name: 'home',
       url: '/home',
       controller: 'HomeController',
-      controllerAs: 'homeCtrl'
+      controllerAs: 'homeCtrl',
+      template: require('../view/home/home.html')
     },
     {
       name: 'signup',
       url: '/signup',
       controller: 'SignupController',
-      controllerAs: 'signupCtrl'
+      controllerAs: 'signupCtrl',
+      template: require('../view/signup/signup.html')
     }
   ];
 
