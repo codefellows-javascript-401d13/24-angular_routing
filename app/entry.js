@@ -1,5 +1,7 @@
 'use strict';
 
+require('./scss/main.scss');
+
 const path = require('path');
 const pascalcase = require('pascalcase');
 const angular = require('angular');
