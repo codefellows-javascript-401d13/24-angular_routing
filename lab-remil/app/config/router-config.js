@@ -26,4 +26,4 @@ function routerConfig($stateProvider, $urlRouterProvider) {
   });
 }
 
-export default ['$stateProvider', '$urlRouterProvider', routerConfig];
+module.exports = ['$stateProvider', '$urlRouterProvider', routerConfig];

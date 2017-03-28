@@ -1,12 +1,12 @@
 'use strict';
 
-import './scss/main.scss';
+require('./scss/main.scss');
 
-import path from 'path';
-import camelcase from 'camelcase';          //eslint-disable-line
-import pascalcase from 'pascalcase';
-import angular from 'angular';
-import uiRouter from 'angular-ui-router';
+const path = require('path');
+const camelcase = require('camelcase');          //eslint-disable-line
+const pascalcase = require('pascalcase');
+const angular = require('angular');
+const uiRouter = require('angular-ui-router');
 
 const routingApp = angular.module('routingApp', [uiRouter]);
 

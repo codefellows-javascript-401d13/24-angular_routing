@@ -1,10 +1,10 @@
 'use strict';
 
-import './home-view.scss';
+require('./home-view.scss');
 
 
 function HomeViewController($log) {
   $log.debug('HomeViewController');
 }
 
-export default ['$log', HomeViewController];
+module.exports = ['$log', HomeViewController];
