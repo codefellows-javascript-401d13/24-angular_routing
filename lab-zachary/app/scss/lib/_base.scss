@@ -1,0 +1,34 @@
+@import './global-vars';
+
+body{
+  background-color: $quarternaryColor;
+
+  h2{
+    color: $primaryColor;
+    font-size: $primaryText;
+  }
+  nav{
+    height:100px;
+    font-size: $primaryText;
+    color: $primaryColor;
+    background-color:$tertiaryColor;
+  }
+
+  ul{
+    float: right;
+    margin-right: 5%;
+    width:50%;
+    text-align: right;
+    li{
+      display: inline-block;
+      margin-right:2%;
+    }
+  }
+
+  a{
+    color: $primaryColor;
+
+    text-decoration: none;
+  }
+
+}
