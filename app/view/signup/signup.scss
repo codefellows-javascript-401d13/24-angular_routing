@@ -1,0 +1,13 @@
+@import "../../scss/lib/theme/vars";
+
+.signup-content {
+  background-color: $black;
+  color: $app-secondary;
+  text-align: center;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: $gutter;
+  height: $gutter;
+  font-size: x-large;
+  padding-top: 3px;
+}
