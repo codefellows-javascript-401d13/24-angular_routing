@@ -9,7 +9,7 @@ function routerConfig($stateProvider, $urlRouterProvider){
     {
       name: 'home',
       url: '/home',
-      template: require('../view/home/home.html');
+      template: require('../view/home/home.html'),
       controller: 'HomeController',
       controllerAs: 'homeCtrl'
     },
