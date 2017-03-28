@@ -29,6 +29,7 @@ module.exports = {
         use: ExtractTextPlugin.extract({
           fallback: 'style-loader',
           use: ['css-loader', 'sass-loader'],
+        }),
       },
       { //:::: fonts ::::
         test: /\.(eot|woff|tff|svg).*/,
