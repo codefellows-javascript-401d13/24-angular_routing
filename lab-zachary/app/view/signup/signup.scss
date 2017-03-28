@@ -1,0 +1,9 @@
+@import '../../scss/lib/global-vars';
+@import '../home/home';
+
+.signup-content{
+  @extend .home-content;
+  h2{
+    color: $tertiaryColor;
+  }
+}
