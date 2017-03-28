@@ -22,7 +22,7 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     }
   ];
 
-  routes.forEah( route => {
+  routes.forEach( route => {
     $stateProvider.state(route);
   });
 }
