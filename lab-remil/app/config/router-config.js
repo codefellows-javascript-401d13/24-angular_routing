@@ -1,6 +1,5 @@
 'use strict';
 
-export default ['$stateProvider', '$urlRouterProvider', routerConfig];
 
 function routerConfig($stateProvider, $urlRouterProvider) {
   $urlRouterProvider.when('/', '/home');
@@ -26,3 +25,5 @@ function routerConfig($stateProvider, $urlRouterProvider) {
     $stateProvider.state(route);
   });
 }
+
+export default ['$stateProvider', '$urlRouterProvider', routerConfig];

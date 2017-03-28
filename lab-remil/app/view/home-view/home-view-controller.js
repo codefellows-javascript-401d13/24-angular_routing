@@ -2,8 +2,9 @@
 
 import './home-view.scss';
 
-export default ['$log', HomeViewController];
 
 function HomeViewController($log) {
   $log.debug('HomeViewController');
 }
+
+export default ['$log', HomeViewController];
