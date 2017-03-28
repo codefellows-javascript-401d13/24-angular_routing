@@ -1,8 +1,8 @@
 //global vars
 $brand-primary: #444;
 $brand-secondary: #888;
-$tertiary1: #000;
-$tertiary2: #fff;
+$black: #000;
+$white: #fff;
 
 
 
@@ -12,5 +12,5 @@ $tertiary2: #fff;
   background-color: $brand-primary;
   color: $brand-secondary;
   font-size: 45px;
-  font-family: fantasy;
+  font-family: monospace;
 }
