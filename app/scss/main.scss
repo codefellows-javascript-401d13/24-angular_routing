@@ -1,0 +1,12 @@
+//global vars
+$brand-primary: #444;
+$brand-secondary: #888;
+$black: #000;
+$white: #fff;
+
+//
+body{
+  background-color: $brand-primary;
+  font-family: monospace;
+  color: $black;
+}
